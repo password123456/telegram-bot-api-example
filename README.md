@@ -12,6 +12,7 @@
 # list
 - [SEND] Message to telegram-bot
 - [SEND] Document to telegram-bot
-- [SEND] Photo to telegram-bot
-- [SEND] Audio to telegram-bot
+- [SEND] Photo to telegram-bot (.jpg, .jpeg, .gif...)
+- [SEND] Audio to telegram-bot (.mp3, .mp4...)
+- [SEND] Voice to telegram-bot (.wav, .ogg...)
 - [ACL]  bot access control code
