@@ -48,13 +48,9 @@ def start(update: Update, context: CallbackContext) -> None:
     )
 
 
-@confirm_bot_authorize
 def help_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    #update.message.reply_text('Help!')
-    content = open('share/readme.txt', 'rb')
-    chat_id = update.message.chat_id
-    context.bot.send_document(chat_id, content)
+    update.message.reply_text('Help!')
 
 @confirm_bot_authorize
 def echo(update: Update, context: CallbackContext) -> None:
@@ -65,7 +61,6 @@ def echo(update: Update, context: CallbackContext) -> None:
 def myid_command(update: Update, context: CallbackContext) -> None:
     content = 'Your Name: %s\nYour telegram Id: %s' % (update.effective_user.full_name, update.effective_user.id)
     update.message.reply_text(content)
-
 
 def chatid_command(update: Update, context: CallbackContext) -> None:
     chat_id = update.message.chat_id
