@@ -1,6 +1,6 @@
 __author__ = 'https://github.com/password123456/'
 
-import os
+import sys
 import requests
 
 
