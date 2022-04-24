@@ -9,3 +9,7 @@
 
 - Example codes for Telegram_Bot API
 
+# list
+- send a message to telegram-bot
+- send a document to telegram-bot
+- bot access control code (a wrapper code that allows the bot to respond only in the allowed chat room lists)
