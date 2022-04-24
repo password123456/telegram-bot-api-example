@@ -49,8 +49,8 @@ def main():
     # The photo must be at most 10MB in size.
     # The photo's width and height must not exceed 10000 in total. Width and height ratio must be at most 20
     
-    #file_name = '$/data/program/photo/telegram.png$'
-    #file_caption = '$your document description$'
+    file_name = '$/data/program/photo/telegram.png$'
+    file_caption = '$your document description$'
     chat_id = 12112121221212  # your chat_room_number
 
     send_to_telegram_photo(file_name, file_caption, chat_id)
