@@ -14,4 +14,4 @@
 - [SEND] Document to telegram-bot
 - [SEND] Photo to telegram-bot
 - [SEND] Audio to telegram-bot
-- [ACL]  bot access control code (a wrapper code that allows the bot to respond only in the allowed chat room lists)
+- [ACL]  bot access control code
