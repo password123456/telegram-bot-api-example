@@ -7,7 +7,7 @@
 [pyversion-button]: https://img.shields.io/pypi/pyversions/Markdown.svg
 [made-with-python]: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
 
-- Example codes for Telegram_Bot API
+- Example codes for Telegram_Bot API (https://core.telegram.org/bots/api)
 
 # list
 - [SEND] Message to telegram-bot
