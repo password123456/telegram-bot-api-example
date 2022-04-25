@@ -15,4 +15,5 @@
 - [SEND] Photo to telegram-bot (.jpg, .jpeg, .gif...)
 - [SEND] Audio to telegram-bot (.mp3, .mp4...)
 - [SEND] Voice to telegram-bot (.wav, .ogg...)
+- [SEND] GeoLocation to telegram-bot
 - [ACL]  bot access control code
